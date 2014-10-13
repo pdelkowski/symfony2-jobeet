@@ -1,0 +1,7 @@
+parameters:
+#    inpost_jobeet.example.class: Inpost\JobeetBundle\Example
+
+services:
+#    inpost_jobeet.example:
+#        class: %inpost_jobeet.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

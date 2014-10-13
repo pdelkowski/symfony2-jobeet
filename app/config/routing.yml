@@ -1,0 +1,4 @@
+inpost_jobeet:
+    resource: "@InpostJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+

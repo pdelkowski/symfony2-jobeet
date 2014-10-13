@@ -1,0 +1,11 @@
+inpost_jobeet_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: InpostJobeetBundle:Default:index }
+
+InpostJobeetBundle_job:
+    resource: "@InpostJobeetBundle/Resources/config/routing/job.yml"
+    prefix: /job
+
+InpostJobeetBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: InpostJobeetBundle:Default:index }
